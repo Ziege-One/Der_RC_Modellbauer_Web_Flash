@@ -5,9 +5,9 @@
         "chipFamily": "ESP32",
         "parts": [
           { "path": "boot_app0.bin", "offset": 57344 },
-          { "path": "SerialHelloWorld.ino.bin", "offset": 65536 },
-          { "path": "SerialHelloWorld.ino.bootloader.bin", "offset": 4096 },
-          { "path": "SerialHelloWorld.ino.partitions.bin", "offset": 32768 }
+          { "path": "Servotester_Deluxe.ino.bin", "offset": 65536 },
+          { "path": "Servotester_Deluxe.ino.bootloader.bin", "offset": 4096 },
+          { "path": "Servotester_Deluxe.ino.partitions.bin", "offset": 32768 }
         ]
       },
       {
