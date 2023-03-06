@@ -13,7 +13,7 @@
       {
         "chipFamily": "ESP8266",
         "parts": [
-          { "path": "esp8266/SerialHelloWorld.ino.bin", "offset": 0 }
+          { "path": "Servotester_Deluxe.ino.bin", "offset": 0 }
         ]
       }
     ]
