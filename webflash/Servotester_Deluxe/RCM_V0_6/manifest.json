@@ -1,0 +1,12 @@
+{
+    "name": "Servotester_Deluxe 1106 V0.6",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "Servotester_Deluxe.ino.bin", "offset": 65536 },
+        ]
+      }
+    ]
+  }
