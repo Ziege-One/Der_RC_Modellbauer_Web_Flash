@@ -126,10 +126,10 @@
 <div id="flasher">
 
 <ol>
-  <li>Schließen Sie Ihr ESP an einen USB-Anschluss an. Und wir werden de ESP32 flashen.</li>
-  <li id="coms">Klicken Sie auf „Installieren“ und wählen Sie den richtigen COM-Port aus. <a onclick="showSerialHelp()">Kein Gerät gefunden?</a></li>
-  <li>Lassen Sie den ESP32 in weniger als 3 Minuten prgramieren!</li>
-  <li>Hinweis: Der Installer ist für die meisten ESP32-Boards geeignet, es wird ein 4-MB-Flash-Chip benötigt.</i>
+  <li>Schließen Sie Ihren ESP32 an einen USB-Anschluss an und wir werden den ESP32 flashen. </li>
+  <li id="coms">Klicken Sie auf "Installieren" und wählen Sie den entsprechenden COM-Port aus. <a onclick="showSerialHelp()">Kein Gerät gefunden?</a></li>
+  <li>Die Programmierung des ESP32 dauert weniger als 3 Minuten.</li>
+  <li>Hinweis: Dieser Installer ist für die meisten ESP32-Boards geeignet, jedoch wird ein 4-MB-Flash-Chip benötigt.</i>
 </ol><br><br>
 
 <div class="container inst-button">
@@ -160,15 +160,6 @@
 -->    
   </select><br>
 
-
-<!--
-  <div id="eth">
-    <input type="checkbox" id="ethernet" name="ethernet" onchange="setManifest()">
-    <label for="ethernet"> My board has Ethernet</label><br>
-  </div>
-</div>
--->
-
 </div>
 <br>Powered by <a href="https://esphome.github.io/esp-web-tools/" target="_blank">ESP Web Tools</a><br>
 
@@ -179,14 +170,7 @@
     var opt = sel.options[sel.selectedIndex];
     var m = opt.dataset.manifest;
     var me = opt.dataset.ethernet;
-    /*
-    document.getElementById('eth').style.display = me ? "block":"none";
-    if (me && document.getElementById('ethernet').checked) {
-      m = me;
-    }
-    */
     document.getElementById('inst').setAttribute('manifest',m);
-    /*document.getElementById('verstr').textContent = opt.text;*/
   }
   
   function checkSupported() {
@@ -199,12 +183,12 @@
   }
   
   function showSerialHelp() {
-    document.getElementById('coms').innerHTML = `Klicken Sie auf „Installieren“ und wählen Sie den richtigen 	 COM-Port aus.<br><br>
-    Möglicherweise fehlen Ihnen die Treiber für Ihr Board.<br>
-    Hier sind Treiber für Chips, die häufig in ESP-Boards verwendet werden:<br>
+    document.getElementById('coms').innerHTML = `Um fortzufahren, klicken Sie auf Installieren und wählen Sie den richtigen COM-Port aus.<br><br>
+    Möglicherweise benötigen Sie Treiber für Ihr Board.<br>
+    Hier sind Links zu Treibern für Chips, die oft in ESP-Boards verwendet werden:br>
     <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers" target="_blank">CP2102 (square chip)</a><br>
     <a href="https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers" target="_blank">CH34x (rectangular chip)</a><br><br>
-    Stellen Sie sicher, dass Ihr USB-Kabel die Datenübertragung unterstützt.<br><br>
+    Stellen Sie sicher, dass Ihr USB-Kabel für Datenübertragungen geeignet ist.<br><br>
     `;
   }
 </script>
