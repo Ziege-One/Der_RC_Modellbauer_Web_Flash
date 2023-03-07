@@ -1,0 +1,12 @@
+{
+    "name": "Servotester_Deluxe 1106 V0.13.0",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32",
+        "parts": [
+          { "path": "Servotester_Deluxe_TheDIYGuy999_V0_13_0.bin", "offset": 65536 },
+        ]
+      }
+    ]
+  }
