@@ -1,6 +1,6 @@
 {
     "name": "Servotester_Deluxe 1306 V0.14.0",
-    "new_install_prompt_erase": true,
+    "new_install_prompt_erase": false,
     "builds": [
       {
         "chipFamily": "ESP32",
