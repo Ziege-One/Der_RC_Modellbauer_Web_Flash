@@ -1,13 +1,13 @@
 {
-    "name": "ESP32-SBus-Switch V0.2",
+    "name": "ESP32-RC-Sound V0.1",
     "new_install_prompt_erase": true,
     "builds": [
       {
         "chipFamily": "ESP32",
         "parts": [
-          { "path": "ESP32-SBus-Switch_V0_2.bin", "offset": 65536 },
+          { "path": "ESP32-RC-Sound_V0_1.bin", "offset": 65536 },
 		  { "path": "bootloader.bin", "offset": 4096 },
-		  { "path": "partitions.bin", "offset": 32768 }		  
+		  { "path": "partitions.bin", "offset": 32768 }
         ]
       }
     ]
