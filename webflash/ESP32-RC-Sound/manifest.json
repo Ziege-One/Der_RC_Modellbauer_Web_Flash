@@ -1,5 +1,5 @@
 {
-    "name": "ESP32-RC-Sound V0.2",
+    "name": "ESP32-RC-Sound V0.3",
     "new_install_prompt_erase": true,
     "builds": [
       {
