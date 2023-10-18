@@ -1,11 +1,11 @@
 {
-    "name": "ESP32-RC-Sound V0.31",
+    "name": "ESP32-RC-Sound V0.35",
     "new_install_prompt_erase": true,
     "builds": [
       {
         "chipFamily": "ESP32",
         "parts": [
-          { "path": "ESP32-RC-Sound_V0_31.bin", "offset": 65536 },
+          { "path": "ESP32-RC-Sound_V0_35.bin", "offset": 65536 },
 		  { "path": "bootloader.bin", "offset": 4096 },
 		  { "path": "partitions.bin", "offset": 32768 }
         ]
