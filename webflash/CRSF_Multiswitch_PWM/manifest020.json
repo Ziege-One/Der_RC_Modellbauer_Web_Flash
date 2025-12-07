@@ -1,0 +1,14 @@
+{
+    "name": "CRSF Multiswitch PWM V0.20",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32-C3",
+        "parts": [
+          { "path": "CRSF_Multiswitch_PWM_V0_20.bin", "offset": 65536 },
+		  { "path": "bootloader.bin", "offset": 0 },
+		  { "path": "partitions.bin", "offset": 32768 }
+        ]
+      }
+    ]
+  }
